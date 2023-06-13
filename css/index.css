@@ -12,3 +12,8 @@
 .screen_reader{font-size:0;text-indent:-9999px;overflow:hidden;}
 .inner{width:1280px;margin:0 auto;}
 /* common -E */
+.header{}
+.main{background:linear-gradient(#080b43 40%,#4248ab 80%); }
+.model_think{overflow: hidden; width: 519px; height: 436px; background-image: url(../img/ｃｏｎｃｅｐｔ.png); background-attachment: fixed;}
+.content_think{width: 519px; height: 436px; background-image: url(../img/ｃｏｎｃｅｐｔ.png); background-attachment:fixed;}
+.footer{background-color:#111622;}
