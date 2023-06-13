@@ -11,9 +11,58 @@
 /* common -S */
 .screen_reader{font-size:0;text-indent:-9999px;overflow:hidden;}
 .inner{width:1280px;margin:0 auto;}
+
+.clearfix::after{ content: ""; display: block; clear: both;}
 /* common -E */
-.header{}
+/* header */
+.header{ width: 100%; position: absolute;left: 0; top: 0; z-index: 100;}
+.header::before{content: "";display: block; width: 100%; height: 200px; background-color:#fff; position: absolute; left: 0; top: 0; z-index: -10; opacity: 0; transition: all 0.3s;}
+.header:hover::before{opacity: 0.6;}
+.header:hover .logo_desc{ color: #0d4795; }
+.header:hover 
+.header .inner{ margin-top: 81px;}
+
+.header .logo{display: inline-block; width: 270px; height: 38px; float: left; }
+.logo .logo_link{display: block;}
+.logo .logo_img{ display: inline-block; margin-right: 10px; width: 53px; height: 38px; background-image: url(../img/logo.png); vertical-align: top;}
+.logo .logo_desc{font-size: 30px; line-height: 38px; transition: all 0.3s;}
+
+.header .gnb{ float: right; }
+.gnb .gnb_list{}
+.gnb_list li{display: inline-block;}
+.gnb_list li+li{ margin-left: 102px;}
+.gnb_list .gnb_link{ padding: 5px 0; font-size: 25px; color: #fff; transition: all 0.3s; }
+
+/* quick_menu */
+.quick_menu{position: fixed; left: 50%; top: 50%; transform: translateX(400%); z-index: 50;}
+.quick_list li{width:138px;height:85px; border-radius: 100%;box-sizing: border-box;}
+.quick_list li+li{margin-top:112px;}
+.quick_list .quick_link{display:block; padding-top: 53px; width: 100%; height: 100%;border-radius: 100%; text-align: center; color: #fff; transition: all 0.3s;}
+.quick_list .quick_link:hover{box-shadow: 0 0 0 4px #fff inset; font-size: 22px;}
+.quick_list .member_link{background-color:#080b43;}
+.quick_list .counsel_link{background-color: #0d4795;}
+/* main */
 .main{background:linear-gradient(#080b43 40%,#4248ab 80%); }
-.model_think{overflow: hidden; width: 519px; height: 436px; background-image: url(../img/ｃｏｎｃｅｐｔ.png); background-attachment: fixed;}
-.content_think{width: 519px; height: 436px; background-image: url(../img/ｃｏｎｃｅｐｔ.png); background-attachment:fixed;}
+/* big-visual -S */
+.big-visual-wrap{
+  width: 100%;
+  position: relative;
+}
+.big_visual{ 
+  width: 100%; height: 1044px;
+  overflow: hidden;
+}
+.big_visual .slide { 
+  width: 100%; height: 1044px; 
+  position: relative; z-index: 1;
+}
+
+.big_visual .slide1{width: 100%; background-image: url(../img/visual1.png);}
+.big_visual .slide2{width: 100%; background-image: url(../img/visual2.png);}
+
+/* big-visual -E */
+
+.model_think{overflow: hidden; width: 519px; height: 436px; background-image: url(../img/concept.png); background-attachment: fixed;}
+.content_think{width: 519px; height: 436px; background-image: url(../img/concept.png); background-attachment:fixed;}
+/* footer */
 .footer{background-color:#111622;}
