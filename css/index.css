@@ -127,11 +127,11 @@
 .help_box .box1_detail:nth-child(2){margin-top: 75px;}
 .help_box .box1_detail:nth-child(3){margin-top: 71px;}
 .help_box .box2_detail{ display: block; font-size: 60px; color: #fff; position: relative; }
-.help_box .box2_detail:nth-child(1){margin-top: 159px;}
+.help_box .box2_detail:nth-child(1){margin-top: 135px;}
 .help_box .box2_detail:nth-child(1)::before{content:""; width: 154px; height: 16px; background-color: #f00; position: absolute; left: 145px; bottom: -20px;}
 .help_box .box2_detail:nth-child(2){margin-top: 33px;}
 .help_box .box2_detail:nth-child(2)::after{content:""; width: 180px; height: 16px; background-color: #f00; position: absolute; left: 136px; bottom: -20px;}
-.box2_detail .detail_dot{ display: inline-block; position: relative;}
+.box2_detail .detail_dot{ display: inline-block;font-size: 74px; position: relative;}
 .box2_detail .detail_dot::after{ content: ""; width: 15px; height: 15px; border-radius: 100%; background-color: #4e54c0; position: absolute; left: 13px; top: -13px; animation: beat 1.3s infinite;}
 .box2_detail .detail_dot:nth-child(2)::after{ animation-delay: 0.7s;}
 .box2_detail .detail_dot:nth-child(3)::after{ animation-delay: 1s; }
@@ -157,23 +157,23 @@
 .brand_list li:nth-child(4){right: -300px; top: 258px;}
 .brand_list li:nth-child(4)::after{right: 285px; bottom: 0;}
 .support .detail_list{ margin-bottom:267px; }
-.detail_list li{ display: inline-block; margin: 197px 0 0 143px; width: 400px; height: 223px; border-radius: 15px; overflow: hidden; box-shadow:  0 0 10px #000; position: relative; cursor: pointer; }
+.detail_list li{ display: inline-block; margin: 197px 0 0 143px; width: 400px; height: 285px; border-radius: 15px; overflow: hidden; box-shadow:  0 0 10px #000; position: relative; cursor: pointer; }
 .detail_list li:hover .detail_box{bottom: 0;}
 .detail_list li:hover .detail_tit::after{width: 81px;}
 .detail_list li:nth-child(1){background-image: url(../img/community.png);}
 .detail_list li:nth-child(2){background-image: url(../img/online-system.png);}
 .detail_list li:nth-child(3){background-image: url(../img/marketing.png);}
 .detail_list li:nth-child(4){background-image: url(../img/manage.png);}
-.detail_list .detail_box{ padding: 14px 0 20px 20px; width: 100%; height: 62px; background-color: #fff; position: absolute; left: 0; bottom: -45px; transition: all 0.3s;}
-.detail_box .detail_tit{ display: inline-block; margin-bottom: 19px; font-size: 20px;color:#080b43; position: relative;}
+.detail_list .detail_box{ padding: 20px 0 25px 20px; width: 100%; height: 62px; background-color: #fff; position: absolute; left: 0; bottom: -40px; transition: all 0.3s;}
+.detail_box .detail_tit{ display: inline-block; margin-bottom: 24px; font-size: 25px;color:#080b43; position: relative;}
 .detail_box .detail_tit::after{content: ""; width: 0; height: 5px; background-color: #f00; position: absolute; right: -100px; top: 7px; transform: rotate(180deg); transition: all 0.3s;}
-.detail_box .detail_desc{ display: block; font-size: 14px; color: #757576;}
+.detail_box .detail_desc{ display: block; font-size: 20px; color: #757576;}
 .support_notice { display: block; font-size: 20px; color: #8c8c8c; text-align: center; }
 /* detail -S */
 .detail{ padding: 368px 0 287px; background-color: #fff;}
 .detail .detail_tit{text-align: center;}
 .detail_tit .detail_box1{display: inline-block; margin: 64px 106px 277px 0; vertical-align: top;}
-.detail_box1 span{ display: block; font-size: 60px;}
+.detail_box1 span{ display: block; font-size: 78px;}
 .detail_tit .detail_bar{font-size: 220px; margin-right: 89px;}
 .detail_tit .detail_desc{font-size: 220px;}
 .detail_formula{ display: block; margin: 0 auto 266px; width: 619px;height: 67px;background-image: url(../img/formula.png);}
@@ -194,7 +194,7 @@
 /* .content_think{width: 519px; height: 436px; background-image: url(../img/concept.png); background-attachment:fixed;} */
 /* footer */
 .footer{background-color:#111622;}
-.footer_logo .icon_logo{display: inline-block; width: 50px;height: 36px; background-image: url(../img/f-logo.png);}
+.footer_logo .icon_logo{display: inline-block; width: 50px;height: 36px; background-image: url(../img/f-logo.png); vertical-align: top;}
 .footer_logo .logo_desc{font-size: 30px; color: #333;}
 
 /* animation */
