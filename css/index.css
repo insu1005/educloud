@@ -193,10 +193,13 @@
 .model_think{overflow: hidden; width: 519px; height: 436px; background-image: url(../img/concept.png); background-attachment: fixed; background-position: center center;}
 /* .content_think{width: 519px; height: 436px; background-image: url(../img/concept.png); background-attachment:fixed;} */
 /* footer */
-.footer{background-color:#111622;}
-.footer_logo .icon_logo{display: inline-block; width: 50px;height: 36px; background-image: url(../img/f-logo.png); vertical-align: top;}
-.footer_logo .logo_desc{font-size: 30px; color: #333;}
-
+.footer{padding: 76px 0 85px; background-color:#111622; color: #333;}
+.footer .footer_logo{display: inline-block; margin-right: 99px;}
+.footer_logo .icon_logo{display: inline-block; margin-right: 24px; width: 50px;height: 36px; background-image: url(../img/f-logo.png); vertical-align: top;}
+.footer_logo .logo_desc{font-size: 30px;}
+.footer .footer_desc{display:inline-block;vertical-align:top;}
+.list_footer li { display:inline-block;}
+.list_footer li + li { margin-left: ;}
 /* animation */
 @keyframes scroll { 
   0%{ transform: translateY(0);}
