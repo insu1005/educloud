@@ -23,7 +23,7 @@
 /* .header:hover .gnb_link:after{ width} */
 .header .inner{ margin: 81px auto 0;}
 
-.header .logo{display: inline-block; width: 270px; height: 38px; float: left; }
+.header .logo{display: inline-block; width: 270px; height: 38px; }
 .logo .logo_link{display: block;}
 .logo .logo_img{ display: inline-block; margin-right: 10px; width: 53px; height: 38px; background-image: url(../img/logo.png); vertical-align: top;}
 .logo .logo_desc{font-size: 30px; line-height: 38px; transition: all 0.3s;}
