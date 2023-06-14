@@ -79,7 +79,7 @@
 
 /* scroll -E */
 /* start -S */
-.start{ background-color: #fff; padding: 406px 0 222px;}
+.start{ background-color: #fff; padding-bottom: 406px;}
 .start .start_box{ display: inline-block; position: relative;}
 .start .start_model{ margin-right: 51px; position: relative; }
 .start .start_box::after{ content: ""; width: 471px; height: 22px; background-color: #f00; position: absolute;left: 0; bottom: 0; }
@@ -92,10 +92,24 @@
 .start_desc .desc_emph{ display: inline-block; margin-right: 31px; width: 205px; height: 77px; background-image: url(../img/new.png); vertical-align: top; }
 .start_desc .desc_text{ display: inline-block; vertical-align: top; margin: 12px;}
 /* status -S */
-.status{ background-color: #fff;}
-.status .status_tit{ display: block; text-align: center; font-size: 48px;}
+.status{ padding-bottom: 222px; background-color: #fff;}
+.status .status_tit{ display: block; margin-bottom: 328px; text-align: center; font-size: 48px;}
 .status_tit .tit_emph{display: inline-block; width: 194px; height: 78px; background-image: url(../img/principal.png);}
-.status .status_desc{display: block; margin: 0 auto; width: 651px; height: 140px; background-image: url(../img/something.png);}
+.status .status_desc{display: block; margin: 0 auto 262px; width: 651px; height: 140px; background-image: url(../img/something.png);}
+.status .think_box{ margin-left: 163px; width: 1088px; height: 739px; background-image: url(../img/brainstorming.png); position: relative;}
+.think_box .think_desc_blue{ font-size: 50px; color: #080b43; position: absolute; left: 0; top: 0;}
+.think_box .think_desc_red{ font-size: 40px; color: #f00; position: absolute; left: 0; top: 0; }
+.think_box span:nth-child(1){left: 455px;top: 74px;}
+.think_box span:nth-child(2){left: 325px;top: 163px;}
+.think_box span:nth-child(3){left: 701px;top: 163px;}
+.think_box span:nth-child(4){left: 136px;top: 240px;}
+.think_box span:nth-child(5){left: 548px;top: 219px;}
+.think_box span:nth-child(6){left: 405px;top: 306px;}
+.think_box span:nth-child(7){left: 644px;top: 283px;}
+.think_box span:nth-child(8){left: 230px;top: 383px;}
+.think_box span:nth-child(9){left: 527px;top: 414px;}
+.think_box span:nth-child(10){left: 718px;top: 373px;}
+.think_box span:nth-child(11){left: 340px;top: 512px;}
 /* solution -S */
 .solution{ padding: 193px 0 279px; }
 /* help -S */
